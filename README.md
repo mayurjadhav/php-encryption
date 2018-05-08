@@ -96,4 +96,4 @@ Suppose you want to create a namespace named `Encryption`
 3. Inside `Cipher.php`, declare the namespace `Encryption`
 4. Inside `Cipher.php`, ensure the class `Cipher` has been defined, and that
    it matches the php file name exactly
-5. Files that wish to use `Cipher` can now access it via `use Encryption\MyClass`.
+5. Files that wish to use `Cipher` can now access it via `use Encryption\Cipher`.
