@@ -1,5 +1,7 @@
 <?php
 
+namespace Encryption;
+
 /**
  * Class Cipher
  */

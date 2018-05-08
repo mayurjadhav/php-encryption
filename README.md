@@ -63,3 +63,37 @@ echo $cipher->encrypt('4989-1212-1212-1212', $params);
 echo $cipher->decrypt($encrypted, $params);
 
 // 4989-1212-1212-1212
+```
+
+# Composer PSR-4 Example
+
+# Usage
+
+Install the dependencies (currently only phpunit)
+
+```php
+$ php composer.phar install
+```
+
+Run the unit test to verify everything works correctly
+
+```php
+$ ./vendor/bin/phpunit tests/
+```
+
+You should see the following output
+
+```php
+Will update the output once UnitTest is working.
+```
+
+# How to use namespaces with Composer
+
+Suppose you want to create a namespace named `Encryption`
+
+1. Map `Encryption` to a base directory via the composer.json file
+2. Within the base directory for the namespace, create a php file named `Cipher.php`
+3. Inside `Cipher.php`, declare the namespace `Encryption`
+4. Inside `Cipher.php`, ensure the class `Cipher` has been defined, and that
+   it matches the php file name exactly
+5. Files that wish to use `Cipher` can now access it via `use Encryption\MyClass`.
