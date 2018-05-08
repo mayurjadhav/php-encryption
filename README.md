@@ -33,10 +33,11 @@ echo $cipher->encrypt('4989-1212-1212-1212', $params);
 echo $cipher->decrypt($encrypted, $params);
 
 // 4989-1212-1212-1212
-
+```
 
 # Encryption Using MCrypt:
 
+```php
 <?php
 
 // Configure a set of params to reuse throughout your application:
