@@ -1,5 +1,4 @@
 # Encryption:
-====
 
 Object-Oriented PHP application for encrypting and decrypting using MCrypt and OpenSSL.
 
@@ -7,8 +6,8 @@ The idea is that you create an array representing certain encryption settings. T
 
 
 # Encryption Using OpenSSL:
-====
 
+```php
 <?php
 
 // Configure a set of params to reuse throughout your application:
@@ -37,8 +36,8 @@ echo $cipher->decrypt($encrypted, $params);
 
 
 # Encryption Using MCrypt:
-====
 
+```php
 <?php
 
 // Configure a set of params to reuse throughout your application:
