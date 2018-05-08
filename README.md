@@ -37,7 +37,6 @@ echo $cipher->decrypt($encrypted, $params);
 
 # Encryption Using MCrypt:
 
-```php
 <?php
 
 // Configure a set of params to reuse throughout your application:
